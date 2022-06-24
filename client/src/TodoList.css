@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    max-width: 800px;
+    align-items: center;
+  }
+
+  .listName {
+    font-weight: bold;
+    text-align: center;
+
+  }
+  
+  .frameForCreateNew {
+    background-color: pink;
+    border-radius: 10px;
+  }
+  
+  .frameForCreateNew__legend {
+    background-color: white;
+    border: solid;
+    border-radius: 10px;
+  }
+  
+  .todo--not_completed, .todo--completed {
+    border-radius: 10px;
+    padding: 2rem;
+  }
+  
+  .todo--not_completed, .todo--completed, .frameForCreateNew, .item_container {
+    margin: 1rem;
+  }
+  
+  .todo--not_completed {
+    background-color: lightgreen;
+  }
+  
+  .todo--completed {
+    background-color: lightgray;
+  }
+  
+  .createNew > * {
+    margin: 0.1rem;
+    width: 100%;
+  }
+  
+  #btnAddTodo, .todo__button--remove {
+    width: auto;
+    float: right;
+    border-radius: 10px;
+  }
+  
+  .todo__button--remove {
+    background-color: red;
+    color: white
+  }
+  
+  #btnAddTodo {
+    background-color: black;
+    color: white
+  }
+  
+  #createNew__descriptionInput {
+    height: 3rem;
+    padding-top: 0.1rem;
+    padding-left: 0.1rem;
+  }
+  
+  .item__title {
+    font-size: x-large;
+    font-weight: bold;
+  }
+   
+  .todo--completed > .item__title, .todo--completed > .item__description {
+    text-decoration: line-through;
+  }
+ 
